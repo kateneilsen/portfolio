@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KateNeilsen Developer Portfolio</title>
+    <!-- CSS only -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/bvg0jbt.css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!--Header containing top navbar-->
+    <header>
+      <div class="navbar">
+        <div class="container-nav flex-nav">
+          <div class="nav-header">
+            <h2 style="color: white"><a href="#home">kn</a><span>.</span></a></h2>
+            <button class="nav-toggle" id="navToggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <nav class="nav-links" id="nav-links">
+            <ul>
+              <li class="nav-link"><a href="#home">Home</a></li>
+              <li class="nav-link"><a href="#about">About</a></li>
+              <li class="nav-link"><a href="#projects">Projects</a></li>
+              <li class="nav-link"><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!--Hero/Home Section-->
+      <section class="hero-image" id="home">
+        <div class="hero-text">
+          <h1 class="heading-primary">Software Developer</h1>
+          <p>Insert catchy tagline here (no idea)</p>
+        </div>
+      </section>
+
+      <!--About Me Section-->
+      <section class="about" id="about">
+        <h2>about.</h2>
+        <p>
+          Hi, My name is Kate Neilsen. 
+        </p>
+        <p>Text about me (no idea)</p>
+        <br />
+        <p>Career change</p>
+        <br />
+        <p>A bit more about me</p>
+      </section>
+
+      <!--Projects Section-->
+      <section id="projects">
+        <h2>projects.</h2>
+        <div class="gallery">
+          <div class="row">
+            <div class="container">
+              <img src="img/sample1.jpg" alt="" />
+              <div class="middle">
+                <div class="text">Sample Text</div>
+              </div>
+            </div>
+            <div class="container">
+              <img src="img/sample2.jpg" alt="" />
+              <div class="middle">
+                <div class="text">Sample Text</div>
+              </div>
+            </div>
+            <div class="container">
+              <img src="img/sample3.jpg" alt="" />
+              <div class="middle">
+                <div class="text">Sample Text</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br />
+      <!--Contact Section-->
+      <section id="contact">
+        <div class="contact-wrapper">
+          <div class="contact">
+            <h2>contact.</h2>
+            <form action="mailto:kateneilsen@gmail.com" method="GET">
+              <p>
+                <label>Full Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="First and Last Name"
+                />
+              </p>
+              <p>
+                <label>Email</label>
+                <input type="text" name="name" placeholder="Email Address" />
+              </p>
+              <p class="full">
+                <label>Message</label>
+                <textarea
+                  type="text"
+                  name="message"
+                  placeholder="Enter your message here."
+                ></textarea>
+              </p>
+              <p class="full">
+                <button type="submit" value="send">Send Email <i class="fa icon">&#xf1d8;</i></button>
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
